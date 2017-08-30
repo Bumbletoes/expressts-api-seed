@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-airbnb"
+  ],
+  "rules": {
+    "no-constant-condition": true,
+    "no-var-requires": false,
+    "object-literal-sort-keys": false,
+    "prefer-const": false,
+    "align": [
+      "parameters"
+    ]
+  }
+}

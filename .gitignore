@@ -1,0 +1,7 @@
+bin/
+node_modules/
+config.*.json
+test-reports/*.*
+
+# leaving dev config as an example
+!config.development.json

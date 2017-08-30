@@ -1,0 +1,28 @@
+{
+  "logger": {
+    "logDir": "./bin/logs/",
+    "logFile": "./bin/logs/radar-api-server.log",
+    "requestsFile": "./bin/logs/access.log",
+    "requestErrorFile": "./bin/logs/error.log",
+    "requestLogFormat": "dev",
+    "defaultLevel": "debug",
+    "fileDatePattern": ".yyyy-MM-dd"
+  },
+  "database": {
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "dbName": "rradmin_admin"
+  },
+  "server": {
+    "port": 8080,
+    "jwtSecret": "$*6805Yiu8qyty4bm9gDE6#y",
+    "jwtExpiration": "1h",
+    "apiPrefix": "api",
+    "apiVersion": "v1",
+    "plugins": [
+      "logger",
+      "jwt-auth"
+    ]
+  }
+}
