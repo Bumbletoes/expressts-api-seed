@@ -1,7 +1,7 @@
 {
   "name": "expressts-api-seed",
   "version": "1.0.0",
-  "description": "Seed project for expressjs api using typescript. Includes gulp, ts, logging, mocha/chai, etc...etc..",
+  "description": "git ",
   "main": "bin/main.js",
   "scripts": {
     "start:dev": "nodemon bin/main.js",
