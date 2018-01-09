@@ -1,7 +1,7 @@
 {
   "logger": {
     "logDir": "./bin/logs/",
-    "logFile": "./bin/logs/radar-api-server.log",
+    "logFile": "./bin/logs/server.log",
     "requestsFile": "./bin/logs/access.log",
     "requestErrorFile": "./bin/logs/error.log",
     "requestLogFormat": "dev",
@@ -12,7 +12,7 @@
     "host": "localhost",
     "user": "root",
     "password": "",
-    "dbName": "rradmin_admin"
+    "dbName": "myDB"
   },
   "server": {
     "port": 8080,
